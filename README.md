@@ -14,6 +14,7 @@ This serverless project provisions the following:
 - PUT /spk/{table}/{hash}/{id}
 - DELETE /spk/{table}/{hash}/{id}
 
+
 - {table} is the name of the target table
 - {hash} is the name of the partition key
 - {attribute} is the name of the lookup attribute
@@ -27,6 +28,7 @@ This serverless project provisions the following:
 - POST /cpk/{table}/{hash}/{range}
 - PUT /cpk/{table}/{hash}/{range}/{hashID}/{rangeID}
 - DELETE /cpk/{table}/{hash}/{range}/{hashID}/{rangeID}
+
 
 - {table} is the name of the target table
 - {hash} is the name of the partition key
