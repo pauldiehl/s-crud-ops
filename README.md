@@ -15,6 +15,8 @@ This serverless project provisions the following:
 - DELETE /spk/{table}/{hash}/{id}
 
 
+Explained
+
 - {table} is the name of the target table
 - {hash} is the name of the partition key
 - {attribute} is the name of the lookup attribute
@@ -29,6 +31,7 @@ This serverless project provisions the following:
 - PUT /cpk/{table}/{hash}/{range}/{hashID}/{rangeID}
 - DELETE /cpk/{table}/{hash}/{range}/{hashID}/{rangeID}
 
+Explained
 
 - {table} is the name of the target table
 - {hash} is the name of the partition key
@@ -39,10 +42,16 @@ This serverless project provisions the following:
 
 **Set-up:**
 1. Create DynamoDB tables as needed
-1. serverless project install s-crud-ops
-1. (Follow instructions for set-up)
-1. serverless function deploy
-1. serverless endpoint deploy
-1. Go to API Gateway and enable CORS
-1. Test using your favorite REST client service
+ 
+2. serverless project install s-crud-ops
+
+3. (Follow instructions for set-up)
+
+4. serverless function deploy
+ 
+5. serverless endpoint deploy
+ 
+6. Go to API Gateway and enable CORS
+
+7. Test using your favorite REST client service
 
