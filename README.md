@@ -41,7 +41,8 @@ Explained
 
 
 **Set-up:**
-1. Create DynamoDB tables as needed
+
+1. (Create DynamoDB tables as needed)
  
 2. serverless project install s-crud-ops
 
@@ -51,7 +52,7 @@ Explained
  
 5. serverless endpoint deploy
  
-6. Go to API Gateway and enable CORS
+6. (Go to API Gateway and Enable CORS)
 
-7. Test using your favorite REST client service
+7. (Test using your favorite REST client service)
 
